@@ -1,0 +1,32 @@
+{
+	"C++ Startup file": {
+		"prefix": "cpp",
+		"body": ["#include<bits/stdc++.h>\nusing namespace std;\ntypedef long long ll;\n#define pb push_back\n#define eb emplace_back\n#define ARS_Coder() int main()\n#define vsort(p) sort(p.begin(),p.end())\n#define asort(p) sort(p, p+sizeof(p)/sizeof(p[0]))\n#define endl '\\n'\n#define sp ' '\nconst int M = 1e9+7;\n\nARS_Coder()\n{\n\tios_base::sync_with_stdio(false);\n\tcin.tie(NULL);\n\tcout.tie(NULL);\n\n\t${1:/* code */}\n\n\treturn 0;\n}"
+		],
+		"description": "For a fast coding experience for CP."
+	},
+	"Print fast": {
+		"prefix": "print",
+		"body": ["printf(\"${1:}\");"
+		],
+		"description": "For printing fast"
+	},
+	"Scan fast": {
+		"prefix": "scan",
+		"body": [
+			"scanf(\"%d\", &$1);"
+		]
+	},
+	"cin": {
+		"prefix": "ci",
+		"body": "cin >> $1;"
+	},
+	"cout": {
+		"prefix": "cou",
+		"body": "cout << ${1:/*something*/} << endl;"
+	},
+	"cous": {
+		"prefix": "cous",
+		"body": "cout << ${1:/*something*/} << sp;"
+	}
+}
