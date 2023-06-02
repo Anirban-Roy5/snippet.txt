@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box increase</title>
+    <style type="text/css">
+    body
+    {
+        margin: 0px;
+        padding: 0px;  
+        font-family: sans-serif;     
+    }
+    .container
+    {
+        background-color: rgb(5, 0, 36);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    .box
+    {
+        color: rgb(5, 0, 36);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 10px solid white;
+        border-radius: 20px;
+        height: 60px;
+        width: 150px;
+        transition: 1s;
+        background-color: rgba(255, 217, 0, 0.883);
+    }
+    .box .name
+    {
+        font-size: 4.5em;
+        margin: 0px;
+        padding: 0px;
+    }
+    .box #visibility
+    {
+        visibility: hidden;
+    }
+    .box:hover
+    {
+        height: 120px;
+        width: 300px;
+        transition: 1s;
+        border: 15px solid rgba(255, 217, 0, 0.883);
+        background-color:rgb(5, 0, 36);
+        box-shadow: 0px 0px 30px 5px gold;
+    }
+    .box:hover #visibility
+    {
+        visibility: visible;
+        transition-delay: .65s;
+    }
+    .box:hover .a1
+    {
+        color: white;
+        transition: .5s;
+    }
+    .box:hover .n1
+    {
+        color: white;
+        transition: 1s;
+    }
+    .box:hover .i
+    {
+        color: white;
+        transition: 1.5s;
+    }
+    .box:hover .r
+    {
+        color: white;
+        transition: 2s;
+    }
+    .box:hover .b
+    {
+        color: white;
+        border-radius: 10px 0px 0px 10px;
+        transition: 2.5s;
+    }
+    .box:hover .a2
+    {
+        color: white;
+        transition: 2.5s;
+    }
+    .box:hover .n2
+    {
+        color: white;
+        transition: 2.5s;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">           
+            <div class="a1 name" id="visibility">A</div>
+            <div class="n1 name" id="visibility">n</div>
+            <div class="i name" id="visibility">i</div>
+            <div class="r name" id="visibility">r</div>
+            <div class="b name" id="visibility">b</div>
+            <div class="a2 name" id="visibility">a</div>
+            <div class="n2 name" id="visibility">n</div>           
+        </div>
+    </div>
+</body>
+</html>
