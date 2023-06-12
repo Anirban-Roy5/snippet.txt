@@ -1,7 +1,7 @@
 {
 	"C++ Startup file": {
 		"prefix": "cpp",
-		"body": ["#include<bits/stdc++.h>\nusing namespace std;\ntypedef long long ll;\n#define pb push_back\n#define eb emplace_back\n#define ARS_Coder() int main()\n#define vsort(p) sort(p.begin(),p.end())\n#define asort(p) sort(p, p+sizeof(p)/sizeof(p[0]))\n#define endl '\\n'\n#define sp ' '\nconst int M = 1e9+7;\n\nARS_Coder()\n{\n\tios_base::sync_with_stdio(false);\n\tcin.tie(NULL);\n\tcout.tie(NULL);\n\n\t${1:/* code */}\n\n\treturn 0;\n}"
+		"body": ["#include<bits/stdc++.h>\nusing namespace std;\ntypedef long long ll;\n#define pb push_back\n#define eb emplace_back\n#define ARS_Coder() int main()\n#define vsort(p) sort(p.begin(),p.end())\n#define asort(p) sort(p, p+sizeof(p)/sizeof(p[0]))\n#define Max(p) *max_element(p.begin(), p.end())\n#define Min(p) *min_element(p.begin(), p.end())\n#define endl '\\n'\n#define sp ' '\nconst int M = 1e9+7;\n\nARS_Coder()\n{\n\tios_base::sync_with_stdio(false);\n\tcin.tie(NULL);\n\tcout.tie(NULL);\n\n\t${1:/* code */}\n\n\treturn 0;\n}"
 		],
 		"description": "For a fast coding experience for CP."
 	},
