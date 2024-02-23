@@ -1,7 +1,63 @@
 {
 	"C++ Startup file": {
 		"prefix": "cpp",
-		"body": ["#include<bits/stdc++.h>\nusing namespace std;\n\n#define pb push_back\n#define eb emplace_back\n#define Point_Break() int32_t main()\n#define vin(p) for(auto &v:p) cin >> v;\n#define vout(p) for(auto v:p) cout << v << ' ';\n#define int long long\n#define vsort(p) sort(p.begin(),p.end())\n#define asort(p) sort(p, p+sizeof(p)/sizeof(p[0]))\n#define rev(p) reverse(p.begin(), p.end())\n#define all(p) p.begin(), p.end()\n#define Max(p) *max_element(p.begin(), p.end())\n#define Min(p) *min_element(p.begin(), p.end())\n#define endl '\\n'\n#define sp ' '\nconst int M = 1e9+7;\n\nvoid solve()\n{\n\n\t${1:/* code */}\n\n}\n\n\nPoint_Break()\n{\n\tios_base::sync_with_stdio(false);\n\tcin.tie(NULL);\n\tcout.tie(NULL);\n\n\tint t = 1;\n\tcin >> t;\n\n\tfor(int i = 0; i<t; i++)\n\t{\n\t\t//cout << \"Case \" << i+1 << \": \";\n\t\tsolve();\n\t}\n\n\treturn 0;\n}"
+		"body": [
+		"/*"
+		"⠀⠀⠀⠀⠀⠀⢀⣤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⢤⣤⣀⣀⡀⠀⠀    "
+		"⠀⠀⠀⠀⢀⡼⠋⠀⣀⠄⡂⠍⣀⣒⣒⠂⠀⠬⠤⠤⠬⠍⠉⠝⠲⣄⡀⠀ "
+		"⠀⠀⠀⢀⡾⠁⠀⠊⢔⠕⠈⣀⣀⡀⠈⠆⠀⠀⠀⡍⠁⠀⠁⢂⠀⠈⣷⠀⠀"
+		"⠀⠀⣠⣾⠥⠀⠀⣠⢠⣞⣿⣿⣿⣉⠳⣄⠀⠀⣀⣤⣶⣶⣶⡄⠀⠀⣘⢦⡀"
+		"⢀⡞⡍⣠⠞⢋⡛⠶⠤⣤⠴⠚⠀⠈⠙⠁⠀⠀⢹⡏⠁⠀⣀⣠⠤⢤⡕⠱⣷"
+		"⠘⡇⠇⣯⠤⢾⡙⠲⢤⣀⡀⠤⠀⢲⡖⣂⣀⠀⠀⢙⣶⣄⠈⠉⣸⡄⠠⣠⡿"
+		"⠀⠹⣜⡪⠀⠈⢷⣦⣬⣏⠉⠛⠲⣮⣧⣁⣀⣀⠶⠞⢁⣀⣨⢶⢿⣧⠉⡼⠁"
+		"⠀⠀⠈⢷⡀⠀⠀⠳⣌⡟⠻⠷⣶⣧⣀⣀⣹⣉⣉⣿⣉⣉⣇⣼⣾⣿⠀⡇⠀"
+		"⠀⠀⠀⠈⢳⡄⠀⠀⠘⠳⣄⡀⡼⠈⠉⠛⡿⠿⠿⡿⠿⣿⢿⣿⣿⡇⠀⡇⠀"
+		"⠀⠀⠀⠀⠀⠙⢦⣕⠠⣒⠌⡙⠓⠶⠤⣤⣧⣀⣸⣇⣴⣧⠾⠾⠋⠀⠀⡇⠀"
+		"⠀⠀⠀⠀⠀⠀⠀⠈⠙⠶⣭⣒⠩⠖⢠⣤⠄⠀⠀⠀⠀⠀⠠⠔⠁⡰⠀⣧⠀"
+		"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠲⢤⣀⣀⠉⠉⠀⠀⠀⠀⠀⠁⠀⣠⠏⠀"
+		"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠛⠒⠲⠶⠤⠴⠒⠚⠁⠀⠀"
+		"*/"
+		
+		"#include<bits/stdc++.h>"
+		"using namespace std;\n"
+
+		"#define pb push_back"
+		"#define eb emplace_back"
+		"#define Point_Break() int32_t main()"
+		"#define vin(p) for(auto &v:p) cin >> v;"
+		"#define vout(p) for(auto v:p) cout << v << ' '; cout << endl;"
+		"#define int long long"
+		"#define vsort(p) sort(p.begin(),p.end())"
+		"#define asort(p) sort(p, p+sizeof(p)/sizeof(p[0]))"
+		"#define rev(p) reverse(p.begin(), p.end())"
+		"#define all(p) p.begin(), p.end()"
+		"#define Max(p) *max_element(p.begin(), p.end())"
+		"#define Min(p) *min_element(p.begin(), p.end())"
+		"#define endl '\\n'"
+		"#define sp ' '"
+		"const int M = 1e9+7;\n"
+
+		"void solve()"
+		"{\n"
+
+			"\t${1:/* code */}\n"
+
+		"}\n"
+
+		"Point_Break()"
+		"{"
+			"\tios_base::sync_with_stdio(false);"
+			"\tcin.tie(NULL);"
+			"\tcout.tie(NULL);\n"
+			
+			"\tint t = 1;"
+			"\tcin >> t;\n"
+			
+			"\tfor(int i = 0; i<t; i++)"
+			"\t{"
+				"\t\t//cout << \"Case \" << i+1 << \": \";"
+				"\t\tsolve();\n\t}\n\n\treturn 0;"
+			"}"
 		],
 		"description": "For a fast coding experience for CP."
 	},
